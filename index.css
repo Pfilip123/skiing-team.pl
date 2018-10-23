@@ -17,6 +17,7 @@ body{
     height:150px;
     background-color: white;
     letter-spacing: 2px;
+    width: 1835px;
     
 }
 #logotype{
@@ -58,4 +59,56 @@ body{
 .link{
     text-decoration: none;
     color: black;
+}
+#container{
+    width: 1835px;
+     height: 1500px;
+     margin-top: 0px;
+}
+
+#img_index_background{
+    width: 1835px;
+    height: 1024px;
+    /*styl niezbędny do obcięcia obrazka*/
+   position: absolute;
+   left: 0px;
+   top: 96px;
+   /*obcinanie zdjęcia: góra, prawo, dół, lewo*/
+    clip: rect(100px,auto,924px,auto);
+}
+.square1{
+    float: left;
+    position: absolute;
+    top:430px;
+    left: 40px;
+    width: 540px;
+    height: 400px;
+}
+
+.square2{
+    float: left;
+    position: absolute;
+    top:430px;
+    left: 605px;
+    width: 540px;
+    height: 400px;
+    clip: rect();
+}
+
+.square3{
+    float: left;
+    position: absolute;
+    top:430px;
+    left: 1175px;
+    width: 540px;
+    height: 400px;
+    clip: rect();
+}
+#text{
+    position: relative;
+    top: 1100px; 
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 40px;
 }
