@@ -6,6 +6,7 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     width: 1795px;
+   
     
 }
 #heading{
@@ -64,9 +65,16 @@ body{
 #container{
     
 }
+#container_background{
+    width: 1795px;
+    height: 724px;
+}
 #container_background > img{
     width: 1795px;
     height: 1024px;
+    position: absolute;
+    clip: rect(300px auto auto auto);
+    top: -110px;
 }
 #rectangle{
     background-color: #01aef0;
@@ -76,7 +84,7 @@ body{
     height: 77px;
     position: absolute;
     left: 70px;
-    top: 1124px;   
+    top: 824px;   
     font-weight: 1000;
     padding: 18px;
 }
@@ -84,16 +92,28 @@ body{
     font-size: 33px;
     line-height: 130%;
         /*góra, prawo, dół, lewo*/
-    margin: 90px 50px 30px 50px;
+    margin: 90px 110px 30px 110px;
+}
+table{
+    border-spacing: 20px;
+  
+    /*wyśrodkowanie elementu*/
+    margin: 0 auto;
 }
 
-
-table ,tr, td {
+tr, td {
 border: 1px solid white;
  text-align: center;
- padding: 20px;
+ padding: 20px 60px 20px 60px;
+ font-size: 35px;
 
 }
-.bordered{
 
+.bordered{
+    border: 3px solid white;
+}
+#info{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 100px;
 }
