@@ -15,13 +15,14 @@ body{
 }
 #logo{
     height:150px;
+    width: 1795px;
     background-color: white;
     letter-spacing: 2px;
     
 }
 #logotype{
     float: left;
-    height: 170px;
+    height: 150px;
     width: 270px;
 }
 #logotype_img {
@@ -58,4 +59,10 @@ body{
 .link{
     text-decoration: none;
     color: black;
+}
+#container > img{
+    width: 1795px;
+    position: absolute;
+    clip: rect(130px,auto,1085px,auto);
+    top: 65px;
 }
