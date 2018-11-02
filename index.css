@@ -1,13 +1,18 @@
 body{
-    background-color: #01aef0;
+background-color: #244B59;  
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     size: 25px;
-   
-    
-    margin-left: 0px;
-    margin-right: 0px;
-    
+    margin: 0 auto;
+    /*margin-left: 0px;
+    margin-right: 0px;*/
+    height: 50%;
+}
+#container{
+    width: 1795px;
+    height: 1700px;
+     margin:0 auto;
+     background-color: #01aef0;
 }
 #heading{
     letter-spacing: 2px;
@@ -20,11 +25,10 @@ body{
     background-color: white;
     letter-spacing: 2px;
     width: 1795px;
-    
 }
 #logotype{
     float: left;
-    height: 170px;
+    height: 150px;
     width: 270px;
 }
 #logotype_img {
@@ -33,6 +37,7 @@ body{
     height: 150px;
     padding: 1px;
     margin-left: 80px;
+  
 }
 #nav1{
     float: left;
@@ -62,53 +67,29 @@ body{
     text-decoration: none;
     color: black;
 }
-#container{
-    width: 1795px;
-     height: 1500px;
-     margin-top: 0px;
-}
+
 
 #img_index_background{
     width: 1795px;
-    height: 1024px;
-    /*styl niezbędny do obcięcia obrazka*/
-   position: absolute;
-   left: 0px;
-   top: 96px;
-   /*obcinanie zdjęcia: góra, prawo, dół, lewo*/
-    clip: rect(100px,auto,924px,auto);
+    height: 820px;
+  
 }
-.square1{
-    float: left;
-    position: absolute;
-    top:430px;
-    left: 27px;
-    width: 540px;
+#squars{
+    margin: -150px auto auto 50px;
+    position: relative;
+    width: 1700px;
     height: 400px;
 }
-
-.square2{
+.square{
     float: left;
-    position: absolute;
-    top:430px;
-    left: 605px;
+   margin-left: 20px;
     width: 540px;
     height: 400px;
-    clip: rect();
-}
-
-.square3{
-    float: left;
-    position: absolute;
-    top:430px;
-    left: 1175px;
-    width: 540px;
-    height: 400px;
-    clip: rect();
+    /*position:relative;
+    z-index: 1;*/
 }
 #text{
-    position: relative;
-    top: 1100px; 
+    
     text-align: center;
     margin-left: 160px;
     margin-right: 160px;
