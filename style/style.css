@@ -1,0 +1,224 @@
+/*Początek dokumentu aż do obrazka
+jest to ogólny layout
+*/
+body{
+    background-color: #244B59;  
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        size: 25px;
+        margin: 0 auto;
+        /*margin-left: 0px;
+        margin-right: 0px;*/
+        height: auto;
+    }
+    #container{
+        width: 1795px;
+        height: auto;
+        padding-bottom: 30px;
+         margin:0 auto;
+         background-color: #01aef0;
+    }
+    #heading{
+        letter-spacing: 2px;
+        height: 30px;
+        padding: 4px;
+        margin-left: 60px;
+    }
+    #logo{
+        height:150px;
+        background-color: white;
+        letter-spacing: 2px;
+        width: 1795px;
+    }
+    #logotype{
+        float: left;
+        height: 150px;
+        width: 270px;
+    }
+    #logotype_img {
+        float: left;
+        width:150px;
+        height: 150px;
+        padding: 1px;
+        margin-left: 80px;
+      
+    }
+    #nav1{
+        float: left;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+        padding-top: 57px;
+        margin-right: 250px;
+    }
+    #nav_b{
+        float: left;
+        font-weight: 1000;
+        font-size: 25px;
+        color: black;
+        padding-top: 57px;
+        margin-left: 100px;
+    }
+    .nav2{
+        float: left;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+        padding-top: 57px;
+        margin-left: 100px;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    #img_index_background{
+        width: 1795px;
+        height: 820px;
+      
+    }
+    
+    /*tego atrybutu nie ma tylko w index.html*/
+    #rectangle{
+        background-color: #01aef0;
+        text-align: center;
+        font-size: 60px;
+        width: 580px;
+        height: 77px;
+        position: relative;
+        top: -113px;
+        left: 70px;
+        font-weight: 1000;
+        padding: 18px;
+    }
+/*---koniec ogólnego layoutu---*/
+
+/*podstrona index.html*/
+#squars{
+    margin: -150px auto auto 50px;
+    position: relative;
+    width: 1700px;
+    height: 400px;
+}
+.square_index{
+    float: left;
+   margin-left: 20px;
+    width: 540px;
+    height: 400px;
+    /*position:relative;
+    z-index: 1;*/
+}
+#text{
+    
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 40px;
+}
+/*---koniec podstrony index.html---*/
+
+/*podstrona onas.html*/
+.square_onas{
+    float: left;
+    width: 897px;
+    height: 550px;
+    font-size: 33px;
+    line-height: 130%;
+    
+}
+.square_onas > img{
+    width: 898px;
+    height: 550px;
+}
+.square_onas > p{
+    margin: 60px;
+    margin-top: 110px;
+}
+.square_onas >  ul{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*---koniec podstrony onas.html---*/
+
+/*podstrona cennik.html*/
+
+#description{
+    font-size: 33px;
+    line-height: 130%;
+        /*góra, prawo, dół, lewo*/
+    margin: 90px 110px 30px 110px;
+}
+table{
+    border-spacing: 20px;
+  
+    /*wyśrodkowanie elementu*/
+    margin: 0 auto;
+}
+
+tr, td {
+border: 1px solid white;
+ text-align: center;
+ padding: 20px 60px 20px 60px;
+ font-size: 35px;
+
+}
+
+.bordered{
+    border: 3px solid white;
+}
+#info{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+/*---koniec podstrony cennik.html---*/
+
+/*podstrona kontakt.html*/
+#block_left{
+    float: left;
+    font-size: 40px;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+#block_right{
+    float: left;
+    font-size: 40px;
+    padding:30px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+#paragraph{
+    font-weight: 900;
+    margin-bottom: -35px;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+}
+#weeks{
+    float: left;
+  
+}
+#hours{
+    float:left;
+}
+#ps{
+    margin-top: 0px;
+}
+#kontakt_link:link{
+    color: #d8d8d8;
+    text-decoration: none;
+}
+#address_left{
+float: left;
+font-weight: 900;
+margin: auto 20px 50px 100px;
+
+}
+#address_right{
+float: left;
+    margin: auto auto 50px auto;
+}
